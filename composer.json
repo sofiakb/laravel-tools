@@ -1,36 +1,36 @@
 {
-  "name": "sofiakb/laravel-tools",
-  "description": "A library lumen middleware",
-  "type": "library",
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Sofiakb\\Laravel\\Tools\\": "src/"
+    "name": "sofiakb/laravel-tools",
+    "description": "A library lumen middleware",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sofiakb\\Laravel\\Tools\\": "src/"
+        },
+        "classmap": [
+            "tests/"
+        ]
     },
-    "classmap": [
-      "tests/"
-    ]
-  },
-  "authors": [
-    {
-      "name": "Sofiakb",
-      "email": "contact.sofiakb@gmail.com",
-      "homepage": "https://sofianeakbly.fr",
-      "role": "Developer"
-    }
-  ],
-  "support": {
-    "email": "contact.sofiakb@gmail.com"
-  },
-  "minimum-stability": "stable",
-  "config": {
-    "sort-packages": true,
-    "optimize-autoloader": true
-  },
-  "require-dev": {
-    "laravel/framework": "^9.10",
-    "phpunit/phpunit": "^9.5"
-  },
-  "version": "v0.0.12",
-  "time": "2022-02-16"
+    "authors": [
+        {
+            "name": "Sofiakb",
+            "email": "contact.sofiakb@gmail.com",
+            "homepage": "https://sofianeakbly.fr",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "contact.sofiakb@gmail.com"
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "require-dev": {
+        "laravel/framework": "^9.10",
+        "phpunit/phpunit": "^9.5"
+    },
+    "version": "v0.0.2",
+    "time": "2022-05-01"
 }

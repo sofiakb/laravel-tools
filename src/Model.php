@@ -8,6 +8,8 @@
  * @author Sofiakb <contact.sofiakb@gmail.com>
  */
 
+namespace Sofiakb\Laravel\Tools;
+
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Support\Carbon;
